@@ -1,0 +1,14 @@
+.btn-principal{
+    background-color: $color-primary;
+    color: $color-white;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid $color-white;
+
+    &:hover{
+        background-color: $color-white;
+        color: $color-primary;
+        border: 2px solid $color-primary;
+    }
+}
+

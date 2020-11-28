@@ -1,0 +1,52 @@
+
+@font-face{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700&display=swap');
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: $color-gray;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: $color-secondary;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: $color-gray;
+}
+
+@media only screen and (max-width: 920px) {
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+    h1{
+        font-size: 50px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    h1{
+        font-size: 35px;
+    }
+  }
+
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
+    h1{
+        font-size: 50px;
+    }
+    .text-hero{
+        text-align: center;
+    }
+  }
