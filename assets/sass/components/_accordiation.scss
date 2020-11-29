@@ -1,74 +1,83 @@
 .myaccordion {
-    max-width: 950px;
-    margin: 50px auto;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
-  
-    .card {
-      border: none;
-  
-      &:last-child .card-header {
-        border: none;
-      }
-    }
-  
-    .card-header {
-      border-bottom-color: #EDEFF0;
-      background: transparent;
-    }
-  
-    .fa-stack {
-      font-size: 18px;
-    }
-  
-    .btn {
-      width: 100%;
-      font-weight: bold;
-      color: $color-primary;
-      padding: 0;
-    }
-
-    .btn p{
-        color: $color-secondary;
-    }
-  
-    .btn-link {
-      &:hover, &:focus {
-        text-decoration: none;
-      }
-    }
-  
-    li + li {
-      margin-top: 10px;
-    }
-  }
-
-  .btn.focus {
-	outline: 0;
-	box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
-}
-.btn {
-	&:focus {
-		outline: 0;
-		box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
-	}
-}
-
-ul{
-    margin-top: -45px;
-}
-
-   ul li::before {
-    content: "\2022";
-    color: $color-secondary;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;
-  }
+  max-width: 950px;
+  margin: 50px auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 
   .card {
-    border-radius: 1.25rem !important; 
+    border: none;
+
+    &:last-child .card-header {
+      border: none;
+    }
+  }
+
+  .card-header {
+    border-bottom-color: #edeff0;
+    background: transparent;
+  }
+
+  .fa-stack {
+    font-size: 18px;
+  }
+
+  .btn {
+    width: 100%;
+    font-weight: bold;
+    color: $color-primary;
+    padding: 0;
+  }
+
+  .btn p {
+    color: $color-secondary;
+  }
+
+  .btn-link {
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+
+  li + li {
+    margin-top: 10px;
+  }
+}
+
+.btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
+}
+.btn {
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
+  }
+}
+
+#accordion {
+  ul {
+    list-style: none;
+  }
+}
+li {
+  color: $color-gray-light;
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 7.5px;
+    background-color: $color-secondary;
+    left: 40px;
+    margin-top: 5px;
+    position: absolute;
+  }
+}
+
+.card {
+  border-radius: 1.25rem !important;
 }
 
 .card-header {
-    border-bottom: 0px solid rgba(0,0,0,.125);
+  border-bottom: 0px solid rgba(0, 0, 0, 0.125);
 }
