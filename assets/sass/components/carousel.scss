@@ -85,6 +85,7 @@
     bottom: 100px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .owl-nav {
     display: none;
@@ -128,16 +129,6 @@
   }
 }
 
-// @media(max-width: 991px) {
-//   .item-caption {
-//     position: absolute;
-//     left: 15px;
-//     right: 15px;
-//     bottom: 330px;
-//     background-color: red !important;
-    
-//   }
-// }
 /*Landscape*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   .owl-dots {

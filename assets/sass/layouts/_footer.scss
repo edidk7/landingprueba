@@ -1,7 +1,7 @@
 main {
 	.bg-footer{
 		background-color: $color-gray;
-		padding: 30px 490px 60px 490px;
+		padding: 30px 490px 30px 490px;
 	}
 }
 .contenedor-footer{
@@ -11,11 +11,6 @@ main {
     p {
 		text-align: center;
 		color: $color-white;
-    }
-    button{
-		text-align: center;
-        width: 250px;
-        top:50%;
     }
 }
 
@@ -39,9 +34,6 @@ main {
 	.contenedor-footer {
 		p {
 			margin: 10px 10px;
-        }
-
-        button{
         }
     }
     

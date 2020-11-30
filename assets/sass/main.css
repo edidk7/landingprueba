@@ -343,6 +343,67 @@ li:before {
   border-bottom: 0px solid rgba(0, 0, 0, 0.125);
 }
 
+@media screen and (max-width: 1366px) {
+  li {
+    color: #777777;
+    font-size: 0.9em;
+  }
+  li:before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 7.5px;
+    background-color: #802E87;
+    left: 40px;
+    margin-top: 5px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  li {
+    color: #777777;
+    font-size: 0.9em;
+  }
+  li:before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 7.5px;
+    background-color: #802E87;
+    left: 10px;
+    margin-top: 5px;
+    position: absolute;
+  }
+  #accordion p {
+    font-size: 0.8em;
+    text-align: left;
+    margin-top: 15px;
+  }
+}
+
+.navbar-color {
+  background-color: #fff;
+}
+
+.navbar-transparent {
+  background: rgba(255, 255, 255, 0.912);
+}
+
+.logo {
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.tiny .logo {
+  width: 11.8em !important;
+  height: 2.5em !important;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
 .logo {
   width: 15em;
 }
@@ -355,7 +416,7 @@ li:before {
 
 main .bg-footer {
   background-color: #455A64;
-  padding: 30px 490px 60px 490px;
+  padding: 30px 490px 30px 490px;
 }
 
 .contenedor-footer {
@@ -374,12 +435,6 @@ main .bg-footer {
 .contenedor-footer p {
   text-align: center;
   color: #fff;
-}
-
-.contenedor-footer button {
-  text-align: center;
-  width: 250px;
-  top: 50%;
 }
 
 @media screen and (max-width: 1366px) {
@@ -447,6 +502,13 @@ main .section-info {
   color: #fff;
   font-size: 60px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  main .section-info {
+    background-color: #802E87;
+    padding: 30px 100px 60px 100px;
+  }
 }
 
 @media screen and (max-width: 1366px) {

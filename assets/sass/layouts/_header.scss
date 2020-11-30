@@ -1,0 +1,14 @@
+.navbar-color{
+    background-color: $color-white;
+}
+.navbar-transparent{
+    background: rgba(255, 255, 255, 0.912);
+}
+.logo {
+    transition: all 0.4s ease-in-out 0s;
+}
+.tiny .logo {
+    width: 11.8em !important;
+    height: 2.5em !important;
+    transition: all 0.5s ease-in-out 0s;
+}

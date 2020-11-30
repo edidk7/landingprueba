@@ -32,6 +32,14 @@ main {
 	font-size: 60px;
 	margin-bottom: 10px;
 }
+@media screen and(max-width: 1440px) {
+	main {
+		.section-info {
+			background-color: $color-secondary;
+			padding: 30px 100px 60px 100px;
+		}
+	}
+}
 
 @media screen and(max-width: 1366px) {
 	main {
