@@ -69,7 +69,7 @@
 @media (min-width: 768px) {
   .carousel-caption {
     position: absolute;
-    top: 35% !important;
+    top: 25% !important;
     bottom: 220px;
     left: 15%;
     z-index: 10;
@@ -111,7 +111,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .item {
     height: 400px !important;
   }
@@ -120,7 +120,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 40% !important;
+    top: 35% !important;
   }
   #owl-carousel-responsive-home .gradients-bg-responsive {
     background: rgba(255, 255, 251, 0.575);
@@ -160,12 +160,15 @@
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .text-hero {
-    margin-top: -10px;
-    position: absolute;
-  }
-}
+// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+//   .carousel-caption {
+//     margin-top: 35% !important;
+//     padding-top: 20px;
+//     padding-bottom: 20px;
+//     color: #ccc;
+//     text-align: left;
+//   }
+// }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
   #owl-carousel-responsive-home .gradients-bg-responsive {

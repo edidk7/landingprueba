@@ -45,7 +45,7 @@ main {
 	main {
 		.section-info {
 			background-color: $color-secondary;
-			padding: 30px 100px 60px 100px;
+			padding: 30px 100px 0px 100px;
 		}
 	}
 }
@@ -58,10 +58,6 @@ main {
 		}
 	}
 	.contenedor-informacion {
-		.line {
-			width: 280px;
-			margin: auto;
-		}
 		p {
 			margin: 10px 10px;
 			&:last-child {

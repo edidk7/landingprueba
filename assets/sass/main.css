@@ -4,7 +4,7 @@
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
+  font-size: 60px;
   color: #455A64;
   font-weight: 700;
 }
@@ -150,7 +150,7 @@ body {
 @media (min-width: 768px) {
   .carousel-caption {
     position: absolute;
-    top: 35% !important;
+    top: 25% !important;
     bottom: 220px;
     left: 15%;
     z-index: 10;
@@ -191,7 +191,7 @@ body {
   }
 }
 
-@media (min-width: 768px) and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .item {
     height: 400px !important;
   }
@@ -205,7 +205,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    top: 40% !important;
+    top: 35% !important;
   }
   #owl-carousel-responsive-home .gradients-bg-responsive {
     background: rgba(255, 255, 251, 0.575);
@@ -247,13 +247,6 @@ body {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .text-hero {
-    margin-top: -10px;
-    position: absolute;
-  }
-}
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
   #owl-carousel-responsive-home .gradients-bg-responsive {
     height: 125vh;
@@ -263,6 +256,7 @@ body {
 .myaccordion {
   max-width: 950px;
   margin: 50px auto;
+  bottom: 20px;
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
@@ -416,7 +410,7 @@ li:before {
 
 main .bg-footer {
   background-color: #455A64;
-  padding: 30px 490px 30px 490px;
+  padding: 40px 490px 40px 490px;
 }
 
 .contenedor-footer {
@@ -439,7 +433,7 @@ main .bg-footer {
 
 @media screen and (max-width: 1366px) {
   main .bg-footer {
-    padding: 30px 100px 60px 100px;
+    padding: 30px 100px 30px 100px;
   }
   main .contenedor-footer {
     padding: 30px 0px 30px 0px;
@@ -448,7 +442,7 @@ main .bg-footer {
 
 @media screen and (max-width: 900px) {
   main .bg-footer {
-    padding: 15px 20px 0px 20px;
+    padding: 10px 20px 10px 20px;
     margin: auto;
   }
   .contenedor-footer p {
@@ -514,7 +508,7 @@ main .section-info {
 @media screen and (max-width: 1366px) {
   main .section-info {
     background-color: #802E87;
-    padding: 30px 100px 60px 100px;
+    padding: 30px 100px 0px 100px;
   }
 }
 
@@ -522,10 +516,6 @@ main .section-info {
   main .section-info {
     background-color: #802E87;
     padding: 15px 20px 0px 20px;
-    margin: auto;
-  }
-  .contenedor-informacion .line {
-    width: 280px;
     margin: auto;
   }
   .contenedor-informacion p {
